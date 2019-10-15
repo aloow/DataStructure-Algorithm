@@ -29,4 +29,9 @@ dequeue
 ### Linear Search 线性搜索 一个个对比
 ### Divide and conquer 二分法 log2(1000000) = 19.9
 ### Iterative vs recursive ?? 待续
+
+
 -------------------------------------------------------------------
+
+## Star
+### 数组与链表
