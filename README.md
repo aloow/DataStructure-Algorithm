@@ -35,3 +35,26 @@ dequeue
 
 ## Star
 ### 数组与链表
+
+
+-------------------------------------------------------------------
+## C语言
+1.NULL代表空指针
+
+2.声明结构体
+ struct ListNode {
+     int val;
+     struct ListNode *next;
+ };
+ 
+ 3.声明函数 返回值在Struct后面
+ struct ListNode* reverseList(struct ListNode* head){
+ }
+ 
+ 4. set & get 结构体中的指针变量
+ curr->perty
+ 
+ -------------------------------------------------------------------
+ ## 做算法题的经验
+ 先把步骤一步步纸上预演一遍
+ 再编程
