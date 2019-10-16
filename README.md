@@ -47,12 +47,19 @@ dequeue
      struct ListNode *next;
  };
  
+ 2.1实例化结构体
+ struct ListNode node;
+ struct ListNode *pre = NULL;
+ pre = &node;
+ pre->next = head;
+
  3.声明函数 返回值在Struct后面
  struct ListNode* reverseList(struct ListNode* head){
  }
  
  4. set & get 结构体中的指针变量
  curr->perty
+ 
  
  -------------------------------------------------------------------
  ## 做算法题的经验
