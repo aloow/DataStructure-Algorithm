@@ -36,10 +36,11 @@ Leetcode对应的题目：
 * 树 tree (level、root、node、leaf、children) 
 <img src="https://github.com/aloow/Swift-Algorithm-Practice/blob/master/assets/BinaryTree.png" alt="" height="170" >
 
-* 二叉树 Binary Search Trees (a tree in which each node has at most two children)
-操作有：1.插入 inserion O(h) h=tree深度、2.遍历 traversal 前序(先node,后左右) 中序(左右node) 后序(左右node) O(n)
+* 二叉树  (a tree in which each node has at most two children)
+操作有：
+1.插入 inserion O(h) h=tree深度、2.遍历 traversal 前序(先node,后左右) 中序(左右node) 后序(左右node) O(n)、3.search O(log n)
 
-* 搜索二叉树 Binary Search Trees(BST)
+* 搜索二叉树 [Binary Search Trees](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Binary%20Search%20Tree)
 
 ## 算法
 
