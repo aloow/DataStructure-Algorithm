@@ -25,7 +25,7 @@ Algorithms && Data structures
 
 ### 树
 * 一般的树 tree 
-<img src="https://swift.org/assets/images/swift.svg" alt="Swift logo" height="70" >
+<img src="https://github.com/aloow/Swift-Algorithm-Practice/blob/master/assets/BinaryTree.png" alt="" height="170" >
 * 二叉树
 * 搜索二叉树 Binary Search Trees(BST)
 
