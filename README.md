@@ -43,15 +43,6 @@ Leetcode对应的题目：
 
 ## 算法
 
-## Sore （Goal: Sort an array from low to high (or high to low).）
-### Insertion Sort 插入排序，平时打牌的时候就是这种
-### In-place sort 就地排序，冒泡排序
-
-## Binary Search （Goal: Quickly find an element in an array.）
-### Linear Search 线性搜索 一个个对比
-### Divide and conquer 二分法 log2(1000000) = 19.9
-### Iterative vs recursive ?? 待续
-
 ## 相关链接
 * [维基百科](https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5)
 * [raywenderlich](https://www.raywenderlich.com/990-swift-algorithm-club-swift-binary-search-tree-data-structure)
