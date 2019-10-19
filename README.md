@@ -1,25 +1,35 @@
 # Swift-Algorithm-Practice
-算法与数据结构
-
 Algorithms && Data structures
 
-The goal of this project is to explain how algorithms work
-
-Big-O :
+## Welcome Shao qing Swift-Algorithm-Practice
+- [相关概念](相关概念)
+- [数据结构](数据结构)
+  - [线性结构](线性结构)
+  - [树](树)
+  
+  
+## 相关概念
+* 算法
+* 数据结构
+* 时间复杂度与空间复杂度 Big-O
 1.how fast an algorithm is 
 2.how much space it needs
 
+## 数据结构
 
-## Begin 
--------------------------------------------------------------------
-### Stacks LIFO
-push to add a new element to the top of the stack
-pop to remove the element from the top
-peek at the top element without popping it off
+### 线性结构
+* 堆栈 Stack LIFO 
+操作有：push、pop、peek
+* 队列 Queue FIFO
+操作有：enqueue、dequeue、peek
 
-### Queue FIFO
-enqueue 
-dequeue
+### 树
+* 一般的树 tree 
+<img src="https://swift.org/assets/images/swift.svg" alt="Swift logo" height="70" >
+* 二叉树
+* 搜索二叉树 Binary Search Trees(BST)
+
+## 算法
 
 ## Sore （Goal: Sort an array from low to high (or high to low).）
 ### Insertion Sort 插入排序，平时打牌的时候就是这种
@@ -31,13 +41,10 @@ dequeue
 ### Iterative vs recursive ?? 待续
 
 
--------------------------------------------------------------------
-
-## Star
-### 数组与链表
 
 
--------------------------------------------------------------------
+
+-------------------------题外话------------------------------------------
 ## C语言
 1.NULL代表空指针
 
@@ -62,6 +69,4 @@ dequeue
  
  
  -------------------------------------------------------------------
- ## 做算法题的经验
- 先把步骤一步步纸上预演一遍
- 再编程
+
