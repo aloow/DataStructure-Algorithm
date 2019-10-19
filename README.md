@@ -50,6 +50,7 @@ Leetcode对应的题目：
 * [Swift Algorithm Club](https://github.com/raywenderlich/swift-algorithm-club)
 * [力扣](https://leetcode-cn.com/)
 * [leet code](https://leetcode.com/)
+* [Python](https://github.com/jackfrued/Python-100-Days)
 
 -------------------------题外话------------------------------------------
 ## C语言
