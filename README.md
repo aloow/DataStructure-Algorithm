@@ -42,6 +42,9 @@ Leetcode对应的题目：
 
 * 搜索二叉树 [Binary Search Trees](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Binary%20Search%20Tree)
 
+* AVL Tree，搜索二叉树的特殊形式，满足任意节点的两个子树高最大度差为1。search O(log n)
+操作：插入、删除[AVL Tree](https://www.cnblogs.com/zhuwbox/p/3636783.html)
+
 ## 算法
 
 ## 相关链接
