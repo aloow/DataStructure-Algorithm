@@ -25,6 +25,9 @@ Algorithms && Data structures
 * 队列 Queue FIFO
 操作有：1.enqueue、2.dequeue、3.peek
 
+* 优先队列 Priority Queue 
+操作有：1.enqueue、2.dequeue、3.peek
+
 思考🤔：Stack <-> Queue 操作互相实现
 
 * 链表 单链表 双链表 
@@ -54,6 +57,7 @@ Leetcode对应的题目：
 * [力扣](https://leetcode-cn.com/)
 * [leet code](https://leetcode.com/)
 * [Python](https://github.com/jackfrued/Python-100-Days)
+* 程序员小灰 公众号
 
 -------------------------题外话------------------------------------------
 ## C语言
