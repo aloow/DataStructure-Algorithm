@@ -48,6 +48,9 @@ Leetcode对应的题目：
 * AVL Tree，搜索二叉树的特殊形式，满足任意节点的两个子树高最大度差为1。search O(log n)
 操作：插入、删除[AVL Tree](https://www.cnblogs.com/zhuwbox/p/3636783.html)
 
+### Hash Table 说明：通过Key存储和检索Object
+collisions碰撞 1.扩大表的容量 2.链表
+
 ## 算法
 
 ## 相关链接
