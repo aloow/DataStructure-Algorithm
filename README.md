@@ -18,7 +18,7 @@ Algorithms && Data structures
 
 ## 数据结构
 
-### 线性结构 
+### 线性结构  20、232、225、239(高频)
 * 堆栈 Stack LIFO 
 操作有：1.push、2.pop、3.peek
 
@@ -36,14 +36,20 @@ Algorithms && Data structures
 Leetcode对应的题目：
 206(简单 反链表i)、92(中等 反链表ii)、24(两两交换节点)、(141、142)(有无环)、25(中等 交换节点)
 
+### 非线性
+* Set 
+Leetcode对应的题目：
+1、15(高频)、18
 
-### 树
+### 树 基本操作 遍历、深度、高度、路径
 * 树 tree (level、root、node、leaf、children) 
 <img src="https://github.com/aloow/Swift-Algorithm-Practice/blob/master/assets/BinaryTree.png" alt="" height="170" >
 
 * 二叉树  (a tree in which each node has at most two children)
 操作有：
 1.插入 inserion O(h) h=tree深度、2.遍历 traversal 前序(先node,后左右) 中序(左右node) 后序(左右node) O(n)、3.search O(log n)
+Leetcode对应的题目：
+98(验证是否搜索二叉树)、 235、236
 
 * 搜索二叉树 [Binary Search Trees](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Binary%20Search%20Tree)
 
@@ -87,6 +93,12 @@ collisions碰撞 1.扩大表的容量 2.链表
  4. set & get 结构体中的指针变量
  curr->perty
  
- 
+ ## Python
+ class、func、for in 、变量、dictionary、array是否为空 
+ 实例化一个类
+  while、if、for
+  函数声明
+  逻辑运算
+  
  -------------------------------------------------------------------
 
