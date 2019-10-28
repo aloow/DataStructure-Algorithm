@@ -97,6 +97,16 @@ collisions碰撞 1.扩大表的容量 2.链表
  ### 基本数据类型
  整型(0、1)、浮点型(0.2、0.3)、字符串型('hello'、"hi")、布尔型(True、False)
  
+ ### 集合类型
+ 数组
+ ```
+ list = []
+ if not list:
+    print('不为空')
+    
+ n = len(list)
+ ```
+ 
  ### 变量的使用
  ```
  a = 100
@@ -109,6 +119,8 @@ collisions碰撞 1.扩大表的容量 2.链表
  list1.insert(1, 400)
  list1.pop(0)
  fruits += ['pitaya', 'pear', 'mango']
+ 
+ range(10)  # 从0开始到9 0-9
  ```
  
  ### 逻辑运算 not or and
