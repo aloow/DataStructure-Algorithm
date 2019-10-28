@@ -94,15 +94,135 @@ collisions碰撞 1.扩大表的容量 2.链表
  curr->perty
  
  ## Python
- class、func、for in 、变量、dictionary、array是否为空 
- 实例化一个类
-  while、if、for
-  函数声明
-  逻辑运算
+ ### 基本数据类型
+ 整型(0、1)、浮点型(0.2、0.3)、字符串型('hello'、"hi")、布尔型(True、False)
+ 
+ ### 变量的使用
+ ```
+ a = 100
+ b = 12.345
+ d = 'hello, world'
+ e = True
+ 
+ a, b = 5, 10
+ list1.append(200)
+ list1.insert(1, 400)
+ list1.pop(0)
+ fruits += ['pitaya', 'pear', 'mango']
+ ```
+ 
+ ### 逻辑运算 not or and
+ ```
+ //逻辑与
+ x and y
+ //逻辑或
+ a or b
+ //逻辑非
+ not( a and b )
+ ```
+ 
+ ### 成员运算符
+ ```
+ a = 10, list = [1, 2, 3, 4, 5 ];
+ 
+if ( a in list ):  // ( b not in list )
+   print "1 - 变量 a 在给定的列表中 list 中"
+else:
+   print "1 - 变量 a 不在给定的列表中 list 中"
+ ```
+
+### 控制语句
+if语句
+```
+if 3 in list1:
+    y = 3 * x - 5
+elif x >= -1:
+    y = x + 2
+else:
+    y = 5 * x + 3
+
+lst = []
+if lst: # 空数组时为false，非空数组时为true
+    print "不是数组"
+```
+
+for语句
+```
+list1 = [1, 3, 5, 7, 100]
+# 通过循环用下标遍历列表元素
+for index in range(len(list1)):
+    print(list1[index])
+# 通过for循环遍历列表元素
+for elem in list1:
+    print(elem)
+# 字典的操作
+for key in scores:
+  print(f'{key}: {scores[key]}')
+```
+
+ while语句
+ ```
+ while True:
+    counter += 1
+ ```
+ ### 函数
+ ```
+def lcm(x, y):
+    return x * y // gcd(x, y)
+ ```
+ 
+ ### [集合](https://github.com/jackfrued/Python-100-Days/blob/master/Day01-15/07.%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%92%8C%E5%B8%B8%E7%94%A8%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.md)
+ 
+ 
+ 
+ 
+
+  
+  ### [参考链接](https://github.com/jackfrued/Python-100-Days/blob/master/Day01-15/02.%E8%AF%AD%E8%A8%80%E5%85%83%E7%B4%A0.md)
+  ```
+  scores = {'骆昊': 95, '白元芳': 78, '狄仁杰': 82}
+  scores['骆昊']
+  if '武则天' in scores:
+    print(scores['武则天'])
+  for key in scores:
+    print(f'{key}: {scores[key]}')
+  ```
+  
+  ### Class 
+  ```
+  class Clock(object):
+    """数字时钟"""
+
+    def __init__(self, hour=0, minute=0, second=0):
+        """初始化方法
+
+        :param hour: 时
+        :param minute: 分
+        :param second: 秒
+        """
+        self._hour = hour
+        self._minute = minute
+        self._second = second
+
+    def show(self):
+        """显示时间"""
+        return '%02d:%02d:%02d' % \
+               (self._hour, self._minute, self._second)
+
+
+def main():
+    clock = Clock(23, 59, 58)
+    while True:
+        print(clock.show())
+        sleep(1)
+        clock.show()
+
+
+if __name__ == '__main__':
+    main()
+  ```
   
  -------------------------------------------------------------------
 
 10月27日计划：
-算法两节课
-掌握Python并记录 ##Python
 白板一题，完成提交
