@@ -1,6 +1,11 @@
 # Swift-Algorithm-Practice
 Algorithms && Data structures
 
+## 每日目标：
+2个视频
+一种数据结构 操作 应用
+LeetCode一道题，步骤，白板，并通过提交。
+
 ## Welcome Shao qing Swift-Algorithm-Practice
 - [相关概念](相关概念)
 - [数据结构](数据结构)
