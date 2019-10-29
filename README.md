@@ -6,6 +6,17 @@ Algorithms && Data structures
 一种数据结构 操作 应用
 LeetCode一道题，步骤，白板，并通过提交。
 
+**前提是，步骤一点要清晰，一定要验证步骤的可行性**
+尽量细分步骤
+分清楚步骤后验证可行性
+然后根据步骤实现代码
+
+1.能不能分步骤
+2.步骤能不能清晰表达
+3.验证总步骤能不能实现目标，有无漏洞
+4.代码能不能根据每个步骤实现
+5.白板
+
 ## Welcome Shao qing Swift-Algorithm-Practice
 - [相关概念](相关概念)
 - [数据结构](数据结构)
@@ -114,7 +125,9 @@ collisions碰撞 1.扩大表的容量 2.链表
  list = []
  if not list:
     print('不为空')
-    
+ list.pop() # 默认最后一个元素出队
+ list[-1] # 最后一个元素
+ 
  n = len(list)
  ```
  
@@ -196,11 +209,6 @@ def lcm(x, y):
  
  ### [集合](https://github.com/jackfrued/Python-100-Days/blob/master/Day01-15/07.%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%92%8C%E5%B8%B8%E7%94%A8%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.md)
  
- 
- 
- 
-
-  
   ### [参考链接](https://github.com/jackfrued/Python-100-Days/blob/master/Day01-15/02.%E8%AF%AD%E8%A8%80%E5%85%83%E7%B4%A0.md)
   ```
   scores = {'骆昊': 95, '白元芳': 78, '狄仁杰': 82}
