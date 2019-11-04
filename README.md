@@ -82,6 +82,10 @@ collisions碰撞 1.扩大表的容量 2.链表
 最小堆：任何父节点都小于或者等于左右孩子节点
 
 ## 算法
+### 图、树相关
+* 广度优先搜索
+* 深度优先搜索
+LeetCode题：102(Binary Tree level order)
 
 ## 相关链接
 * [维基百科](https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5)
