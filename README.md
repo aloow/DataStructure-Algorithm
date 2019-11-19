@@ -1,11 +1,6 @@
 # Swift-Algorithm-Practice
 Algorithms && Data structures
 
-## 每日目标：
-2个视频
-一种数据结构 操作 应用
-LeetCode一道题，步骤，白板，并通过提交。
-
 **前提是，步骤一点要清晰，一定要验证步骤的可行性**
 尽量细分步骤
 分清楚步骤后验证可行性
@@ -33,7 +28,7 @@ LeetCode一道题，步骤，白板，并通过提交。
 2.how much space it needs
 
 ## 数据结构
-
+---------------------------------
 ### 线性结构  20、232、225、239(高频)
 * 堆栈 Stack LIFO 
 操作有：1.push、2.pop、3.peek
@@ -87,6 +82,16 @@ collisions碰撞 1.扩大表的容量 2.链表
 * 深度优先搜索
 LeetCode题：102(Binary Tree level order)
 
+### 动态规划
+* 递归 + 存储
+* 贪心算法
+* 上面两者优点集成-->动态递归DP
+动态递归：
+* 边界
+* 状态转移公式
+* 最优子结构
+LeetCode: 70(爬楼梯)、120(三角形最小路径和)、152()
+
 ## 相关链接
 * [维基百科](https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5)
 * [raywenderlich](https://www.raywenderlich.com/990-swift-algorithm-club-swift-binary-search-tree-data-structure)
@@ -97,27 +102,7 @@ LeetCode题：102(Binary Tree level order)
 * 程序员小灰 公众号
 
 -------------------------题外话------------------------------------------
-## C语言
-1.NULL代表空指针
 
-2.声明结构体
- struct ListNode {
-     int val;
-     struct ListNode *next;
- };
- 
- 2.1实例化结构体
- struct ListNode node;
- struct ListNode *pre = NULL;
- pre = &node;
- pre->next = head;
-
- 3.声明函数 返回值在Struct后面
- struct ListNode* reverseList(struct ListNode* head){
- }
- 
- 4. set & get 结构体中的指针变量
- curr->perty
  
  ## Python
  ### 基本数据类型
@@ -188,6 +173,10 @@ if lst: # 空数组时为false，非空数组时为true
 
 for语句
 ```
+# 遍历1到n-1的数
+for i in range(1,n):
+  print(i)
+
 list1 = [1, 3, 5, 7, 100]
 # 通过循环用下标遍历列表元素
 for index in range(len(list1)):
@@ -259,6 +248,24 @@ if __name__ == '__main__':
   
  -------------------------------------------------------------------
 
-10月27日计划：
-Python语法掌握 (完成)
-白板一题，完成提交
+## C语言
+1.NULL代表空指针
+
+2.声明结构体
+ struct ListNode {
+     int val;
+     struct ListNode *next;
+ };
+ 
+ 2.1实例化结构体
+ struct ListNode node;
+ struct ListNode *pre = NULL;
+ pre = &node;
+ pre->next = head;
+
+ 3.声明函数 返回值在Struct后面
+ struct ListNode* reverseList(struct ListNode* head){
+ }
+ 
+ 4. set & get 结构体中的指针变量
+ curr->perty
