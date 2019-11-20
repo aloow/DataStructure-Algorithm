@@ -92,6 +92,13 @@ LeetCode题：102(Binary Tree level order)
 * 最优子结构
 LeetCode: 70(爬楼梯)、120(三角形最小路径和)、152()
 
+## 代码模块
+### DFS
+### BFS
+### 二分查找
+### DP、递归递推、贪心
+
+
 ## 相关链接
 * [维基百科](https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5)
 * [raywenderlich](https://www.raywenderlich.com/990-swift-algorithm-club-swift-binary-search-tree-data-structure)
