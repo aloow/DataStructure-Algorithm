@@ -78,9 +78,8 @@ collisions碰撞 1.扩大表的容量 2.链表
 
 ## 算法
 ### 图、树相关
-* 广度优先搜索
-* 深度优先搜索
-LeetCode题：102(Binary Tree level order)
+* DFS & BFS 
+LeetCode题：102、 104、 111、22
 
 ### 动态规划
 * 递归 + 存储
@@ -93,8 +92,8 @@ LeetCode题：102(Binary Tree level order)
 LeetCode: 70(爬楼梯)、120(三角形最小路径和)、152()
 
 ## 代码模块
-### DFS
-### BFS
+### 
+### 
 ### 二分查找
 ### DP、递归递推、贪心
 
@@ -126,6 +125,22 @@ LeetCode: 70(爬楼梯)、120(三角形最小路径和)、152()
  
  n = len(list)
  ```
+ 
+ 双端队列
+ ```
+ from collections import deque
+ # 初始化
+ q = deque([1])
+ d = collections.deque()
+ # 加元素
+ q.append(1)
+ # 加入另外一个数组
+ q.extend([3,4,5])
+ # 出队
+ q.clear()
+ q.popleft()
+ ```
+ 
  
  ### 变量的使用
  ```
