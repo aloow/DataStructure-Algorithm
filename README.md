@@ -1,16 +1,4 @@
-# Swift-Algorithm-Practice
-Algorithms && Data structures
-
-**前提是，步骤一点要清晰，一定要验证步骤的可行性**
-尽量细分步骤
-分清楚步骤后验证可行性
-然后根据步骤实现代码
-
-1.能不能分步骤
-2.步骤能不能清晰表达
-3.验证总步骤能不能实现目标，有无漏洞
-4.代码能不能根据每个步骤实现
-5.白板
+# DataStructure-Algorithm
 
 ## Welcome Shao qing Swift-Algorithm-Practice
 - [相关概念](相关概念)
