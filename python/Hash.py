@@ -27,7 +27,22 @@ class Solution(object):
             value += 1
             dict[str(s[i])] = value
         return dict
+    # 无重复字符的最长子串
+    def lengthOfLongestSubstring(self, s):
+        """
+        :type s: str
+        :rtype: int
+        """
+        dict = {}
+        for i in range(len(s)):
+            value = dict.get(str(s[i]), 0)
+            value += 1
+            dict[str(s[i])] = value
         
+        defV = dict.get("name",10)
+        name = dict.get("name")
+        print(defV)
+        print(name)
 # 1. 两数之和
 # 步骤：1.第一个迭代，把nums中[值：索引]存入数组
 #      2.第二个迭代，把目标值search=target-nums[i],看在表中否。
@@ -37,11 +52,29 @@ class Solution(object):
 
 def main():
     solution = Solution()
-    res = solution.isAnagram("aa","a")
-    print(res)
+    solution.lengthOfLongestSubstring("pwwkew")
+
  
     
 if __name__ == "__main__":
     main()
 
+'''
+字典的使用:
+初始化:
+dict = {}
+字典长度：
+length = len(dict)
+取值,如果键不存在，返回默认值。不会设置默认值到key中
+dict.get(key, default=None)  使用：dict('name') dict('name', 10)
+是否存在
+dict.has_key(key)
+返回所有
+dict.keys() dict.values()
+设置值
+dict[key] = valut
+清空
+dict.clear()
 
+字符变字符串  '2' ->  str('2')
+'''
