@@ -5,7 +5,11 @@
 * 2.swap-nodes-in-pairs         24. 两两交换链表中的节点
 * 3.linked-list-cycle           141.环形链表           简单
 * 4.linked-list-cycle-ii        142. 环形链表 II       中等
-* 5.reverse-nodes-in-k-group    25. K 个一组翻转链表    困难
+* 5.reverse-nodes-in-k-group    25. K 个一组翻转链表    困难（未完成）
+
+## 实战题目 - 堆栈&队列
+* 20. 有效的括号 简单 
+
 
 ## Welcome Shao qing Swift-Algorithm-Practice
 - [相关概念](相关概念)
