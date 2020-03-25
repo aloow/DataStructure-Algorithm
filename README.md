@@ -12,6 +12,12 @@
 * 232.用栈实现队列 简单
 * 225.用队列实现栈 简单
 
+### Python:
+a=b if  expression =True else c
+意思是当表达式expression  为 True  a = b,为False a = c
+
+
+
 ## Welcome Shao qing Swift-Algorithm-Practice
 - [相关概念](相关概念)
 - [数据结构](数据结构)
