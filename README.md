@@ -8,8 +8,9 @@
 * 5.reverse-nodes-in-k-group    25. K 个一组翻转链表    困难（未完成）
 
 ## 实战题目 - 堆栈&队列
-* 20. 有效的括号 简单 
-
+* 20.有效的括号 简单 
+* 232.用栈实现队列 简单
+* 225.用队列实现栈 简单
 
 ## Welcome Shao qing Swift-Algorithm-Practice
 - [相关概念](相关概念)
