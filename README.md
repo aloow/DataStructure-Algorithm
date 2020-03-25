@@ -1,11 +1,11 @@
 # DataStructure-Algorithm
 
-实战题目 - Array & Linked List
-1.reverse-linked-list         24. 反转链表
-2.swap-nodes-in-pairs         24. 两两交换链表中的节点
-3.linked-list-cycle           141.环形链表           简单
-4.linked-list-cycle-ii        142. 环形链表 II       中等
-5.reverse-nodes-in-k-group    25. K 个一组翻转链表    困难
+## 实战题目 - Array & Linked List
+* 1.reverse-linked-list         24. 反转链表
+* 2.swap-nodes-in-pairs         24. 两两交换链表中的节点
+* 3.linked-list-cycle           141.环形链表           简单
+* 4.linked-list-cycle-ii        142. 环形链表 II       中等
+* 5.reverse-nodes-in-k-group    25. K 个一组翻转链表    困难
 
 ## Welcome Shao qing Swift-Algorithm-Practice
 - [相关概念](相关概念)
