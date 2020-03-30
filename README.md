@@ -16,6 +16,9 @@
 a=b if  expression =True else c
 意思是当表达式expression  为 True  a = b,为False a = c
 
+### 哈希数组
+hashlist = set()
+hashlist.add(item)
 
 
 ## Welcome Shao qing Swift-Algorithm-Practice
